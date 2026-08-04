@@ -1,1 +1,1 @@
-# ty_jamesWilliam_labactivity1
+This is the main repository for all lab activities of CPE106L
