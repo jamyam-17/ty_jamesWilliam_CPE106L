@@ -1,4 +1,23 @@
+**************************************************
 Welcome to CPE106L Student Tracker!
+
+Please select what to do:
+
+[1]View student information
+[2]Add student information
+[3]Edit student information
+[4]Delete student information
+[5]Exit
+Enter here: 1
+Please enter the student number of the requested student: 2024108925
+
+Student Name: James William G. Ty
+Student Number: 2024108925
+Numerical Grade: 98
+Letter Grade: A
+Course & Group: CPE106L - Group 1
+Skills: Python, Git, SQL
+
 Please select what to do:
 
 [1]View student information
@@ -8,10 +27,12 @@ Please select what to do:
 [5]Exit
 Enter here: 2
 Please add the student number of the student you want to add: 2024108926
-Please add the name of the student you want to add: john doe
-Please add the final grade of the student you want to add: 70
-Please add the group of the student you want to add: 3
-Student added!
+Please add the name of the student you want to add: John Doe
+Please add the final grade of the student you want to add: 68
+Please add the group number of the student you want to add: 3
+Please add skills separated by commas (e.g. Python, C++, HTML): C++,Javascript,CSS,HTML
+Student added successfully!
+
 Please select what to do:
 
 [1]View student information
@@ -22,11 +43,13 @@ Please select what to do:
 Enter here: 1
 Please enter the student number of the requested student: 2024108926
 
-Student Name: john doe
+Student Name: John Doe
 Student Number: 2024108926
-Numerical Grade: 70
-Letter Grade: D
-Group: 3 
+Numerical Grade: 68
+Letter Grade: F
+Course & Group: CPE106L - Group 3
+Skills: C++, Javascript, CSS, HTML
+
 Please select what to do:
 
 [1]View student information
@@ -37,13 +60,15 @@ Please select what to do:
 Enter here: 3
 Please enter the student number of the student you want to edit: 2024108926
 
-Editing: john doe
+Editing: John Doe
 [1] Edit Name
 [2] Edit Final Grade
 [3] Edit Group
+[4] Edit Skills
 What would you like to edit? Enter here: 1
 Enter the new name: Aljohn Navera
 Student name updated successfully!
+
 Please select what to do:
 
 [1]View student information
@@ -56,9 +81,11 @@ Please enter the student number of the requested student: 2024108926
 
 Student Name: Aljohn Navera
 Student Number: 2024108926
-Numerical Grade: 70
-Letter Grade: D
-Group: 3 
+Numerical Grade: 68
+Letter Grade: F
+Course & Group: CPE106L - Group 3
+Skills: C++, Javascript, CSS, HTML
+
 Please select what to do:
 
 [1]View student information
@@ -67,16 +94,9 @@ Please select what to do:
 [4]Delete student information
 [5]Exit
 Enter here: 4
-Please enter the student number of the student information you want to deelte: 2024108925
-Please select what to do:
+Please enter the student number of the student information you want to delete: 2024108926
+Student deleted successfully!
 
-[1]View student information
-[2]Add student information
-[3]Edit student information
-[4]Delete student information
-[5]Exit
-Enter here: 4
-Please enter the student number of the student information you want to deelte: 2024108926
 Please select what to do:
 
 [1]View student information
@@ -87,6 +107,7 @@ Please select what to do:
 Enter here: 1
 Please enter the student number of the requested student: 2024108926
 I'm sorry we couldn't find this person, please check again or add a new student.
+
 Please select what to do:
 
 [1]View student information
@@ -96,3 +117,4 @@ Please select what to do:
 [5]Exit
 Enter here: 5
 Exiting...Thank you!
+PS C:\Users\james\CPE106L\ty_jamesWilliam_CPE106L> 
