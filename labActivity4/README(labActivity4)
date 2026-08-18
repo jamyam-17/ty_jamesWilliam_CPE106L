@@ -1,0 +1,15 @@
+
+Problem: Handling different ice cream flavors in an Ice cream store
+
+A factory design pattern is used to centralize object creation, allowing versatility. This pattern is
+used since it allows ease of adding or removing different flavors of ice cream depending on their availability (e.g
+Avocados peak fruiting is during May to September)
+
+This program also uses python's unittesting library to ensure that the outputs of the program is correct. This enhances the quality of the program and provides assurance for both the developers and managers.
+
+How to use:
+1. Run ty_jamesWilliam_labActivity4.py
+2. Enter the ice cream flavor you want from the available options (avocado, chocolate, ice cream)
+3. Make sure that all characters are undercase since the program is case-sensitive
+4. View the description, price, and the status of the selected flavor
+5. An indication of "Ran 3 tests in 0.000s OK", means that the program has successfully implemented its intended methods

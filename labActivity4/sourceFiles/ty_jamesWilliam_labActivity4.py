@@ -74,10 +74,10 @@ class TestIceCreamFactory(unittest.TestCase):
 
 # Main progam
 print("="*13+"Ice Cream Store" + "="*13)
-
 shop_factory = IceCreamFactory()
-
-my_treat = shop_factory.create_icecream("strawberry")
+print("Note: Selection is case-sensitive\n")
+selection = input("Please select the flavor of ice cream you want to choose from (avocado,strawberry,chocolate):")
+my_treat = shop_factory.create_icecream(selection)
 
 print("Ordered:", my_treat.get_description())
 print("Price: $", my_treat.get_price())

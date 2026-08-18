@@ -1,0 +1,39 @@
+=============Ice Cream Store=============
+Note: Selection is case-sensitive
+
+Please select the flavor of ice cream you want to choose from (avocado,strawberry,chocolate):avocado
+Ordered: Avocado Ice Cream
+Price: $ 2.5
+
+=============Running Unit Tests=============
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+=============Ice Cream Store=============
+Note: Selection is case-sensitive
+
+Please select the flavor of ice cream you want to choose from (avocado,strawberry,chocolate):chocolate
+Ordered: Chocolate Ice Cream
+Price: $ 2.75
+
+=============Running Unit Tests=============
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+
+=============Ice Cream Store=============
+Note: Selection is case-sensitive
+
+Please select the flavor of ice cream you want to choose from (avocado,strawberry,chocolate):strawberry
+Ordered: Strawberry Ice Cream
+Price: $ 2.6
+
+=============Running Unit Tests=============
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
