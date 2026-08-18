@@ -47,8 +47,7 @@ class IceCreamFactory:
             return ChocolateIceCream()
         elif flavor == "strawberry":
             return StrawberryIceCream()
-        
-        # If the flavor isn't found, just return nothing
+
         return None
 
 
