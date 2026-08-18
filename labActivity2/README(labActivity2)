@@ -1,0 +1,3 @@
+This program is a student tracker that has CRUD (create, read, update, delete) capabilities with the use of lists, tuples, strings, and dictionaries.
+To run the program, head to ty_JamesWilliam_labActivity2.py, and if you want to test the first option (viewing available students), you may enter the student number "2024108925".
+When running the program, select options with the use of the terminal and just type in your decisions and the necessary details necessary.
