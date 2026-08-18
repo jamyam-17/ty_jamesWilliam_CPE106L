@@ -1,0 +1,149 @@
+Welcome to Habit Tracker!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 1
+You currently have no habits. Please go to 'Manage habits' to add a habit first.
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 2
+I'm afraid you currently have 0 habits, please add a habit:
+New habit name: Reading
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 1
+Current Habits:
+ 
+[0] Reading
+Please select which habit you would like to log on: 0
+Habit logged successfully!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 3
+
+=====================HABIT DASHBOARD=====================
+habit name: Reading
+streak: 1
+dates logged: 08/18/2026
+
+========================================================
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 2
+Please select what you want to do: 
+[1]Add habit
+[2]Delete habit
+[3]Exit
+Selection: 1
+New habit name: Gym
+Habit added successfully!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 3
+
+=====================HABIT DASHBOARD=====================
+habit name: Reading
+streak: 1
+dates logged: 08/18/2026
+
+habit name: Gym
+streak: 0
+dates logged: None
+
+========================================================
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 1
+Current Habits:
+ 
+[0] Reading
+[1] Gym
+Please select which habit you would like to log on: 1
+Habit logged successfully!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 3
+
+=====================HABIT DASHBOARD=====================
+habit name: Reading
+streak: 1
+dates logged: 08/18/2026
+
+habit name: Gym
+streak: 1
+dates logged: 08/18/2026
+
+========================================================
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 1
+Current Habits:
+ 
+[0] Reading
+[1] Gym
+Please select which habit you would like to log on: 1
+You have already logged this habit today. Come back tomorrow!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 2
+Please select what you want to do: 
+[1]Add habit
+[2]Delete habit
+[3]Exit
+Selection: 2
+Current Habits:
+ 
+[0] Reading
+[1] Gym
+Please select which habit you would like to delete: 0
+Habit deleted successfully!
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 3
+
+=====================HABIT DASHBOARD=====================
+habit name: Gym
+streak: 1
+dates logged: 08/18/2026
+
+========================================================
+Please select what you want to do: 
+[1]Log habit
+[2]Manage habits
+[3]View Dashboard
+[4]Exit
+Selection: 4
+Exiting Habit Tracker
+PS C:\Users\james\CPE106L\ty_jamesWilliam_CPE106L> 

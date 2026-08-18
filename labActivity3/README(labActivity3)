@@ -1,0 +1,12 @@
+This program is a habit tracker built with python, with a terminal-based UI. This project demonstrates OOP concepts that allows you to keep track of your daily goals, and calculate streaks accordingly.
+
+Features:
+- Logs streaks of consecutive days of a habit, using the datetime module from python. Just add a log for the day you've done your habit, and it will be counted towards your streak. Miss a day, and your streak resets back to 1.
+- Create/Delete habits from within the program using the interactive menu.
+- See logs, streaks, and history in an organized manner with a neat dashboard.
+
+How to use:
+- run ty_jamesWilliam_labActivity.py
+- Use the terminal to select options (Log habits, Manage(Add/Delete) Habit, View Dashboard)
+- Make sure that you head to Manage Habits first to add a habit you want to keep track with.
+- If you are done with the program you can exit by typing 4.
