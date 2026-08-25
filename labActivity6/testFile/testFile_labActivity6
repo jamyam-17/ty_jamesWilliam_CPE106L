@@ -1,0 +1,146 @@
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+## TEST CASE: VIEW SHORT LIST
+Enter choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ID   | Status     | Title                                         | URL                                                | Abstract
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1    | To Read    | IEEE Document 11219194                        | https://ieeexplore.ieee.org/document/11219194      | SAMPLE ABSTRACT
+2    | To Read    | IEEE Document 10346798                        | https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=... | SAMPLE ABSTRACT
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+
+## TEST CASE: ADD ARTICLE
+Enter choice (1-6): 3
+Title: A Computer Vision Based Robotic Harvesting System for Lettuce
+Author(s): Viet-Cuong Pham , Hoang-Giap Nguyen , Thanh-Khang Doan , and Gia-Bao Huynh
+URL/DOI: https://www.ijmerr.com/index.php?m=content&c=index&a=show&catid=184&id=1526&fbclid=IwY2xjawT6i1pwZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkATAAAR5Ru7I4oEPGiJyyT52hPsBEi3FokzfHAO1VRFtR3VVhmQqmQcSsdlLGLhVtdg_aem_zktfa0Inp4h_7yV94hxVxw
+Abstract: Abstract—Harvesting lettuces is a challenging task in agriculture. In the paper, we propose a computer vision based robotic harvesting system for lettuce in hydroponic farms. In these farms, lettuces are grown in holes evenly located on parallel plastic tubes. Therefore, the problem of estimating locations of lettuces’ stems can be simplified by estimating the hole locations instead. In particular, locations of holes covered by lettuces are estimated based on uncovered holes and/or tubes’ edges which are found by using Hough transforms. A robot manipulator and a servo controlled gripper are used for the harvesting task. Experiment results show that the system, with the mean location error of 0.83 mm (typical cases) and maximum error of 9.62 mm, can efficiently perform harvesting task in real word environments. 
+Methods: Hole detection
+Results: 100% Success Rate
+** 'A Computer Vision Based Robotic Harvesting System for Lettuce' added to your local database! **
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+Enter choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ID   | Status     | Title                                         | URL                                                | Abstract
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1    | To Read    | IEEE Document 11219194                        | https://ieeexplore.ieee.org/document/11219194      | SAMPLE ABSTRACT
+2    | To Read    | IEEE Document 10346798                        | https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=... | SAMPLE ABSTRACT
+3    | To Read    | A Computer Vision Based Robotic Harvesting... | https://www.ijmerr.com/index.php?m=content&c=in... | Abstract—Harvesting lettuce...
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+## TEST CASE: VIEW SPECIFIC ARTICLE
+Enter choice (1-6): 2
+Enter Article ID to view full details: 3
+
+==================================================
+TITLE:   A Computer Vision Based Robotic Harvesting System for Lettuce
+AUTHOR:  Viet-Cuong Pham , Hoang-Giap Nguyen , Thanh-Khang Doan , and Gia-Bao Huynh
+URL:     https://www.ijmerr.com/index.php?m=content&c=index&a=show&catid=184&id=1526&fbclid=IwY2xjawT6i1pwZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkATAAAR5Ru7I4oEPGiJyyT52hPsBEi3FokzfHAO1VRFtR3VVhmQqmQcSsdlLGLhVtdg_aem_zktfa0Inp4h_7yV94hxVxw
+STATUS:  To Read
+
+ABSTRACT:
+Abstract—Harvesting lettuces is a challenging task in agriculture. In the paper, we propose a computer vision based robotic harvesting system for lettuce in hydroponic farms. In these farms, lettuces are grown in holes evenly located on parallel plastic tubes. Therefore, the problem of estimating locations of lettuces’ stems can be simplified by estimating the hole locations instead. In particular, locations of holes covered by lettuces are estimated based on uncovered holes and/or tubes’ edges which are found by using Hough transforms. A robot manipulator and a servo controlled gripper are used for the harvesting task. Experiment results show that the system, with the mean location error of 0.83 mm (typical cases) and maximum error of 9.62 mm, can efficiently perform harvesting task in real word environments. 
+
+METHODS:
+Hole detection
+
+RESULTS:
+100% Success Rate
+==================================================
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+## TEST CASE: EDIT ARTICLE STATUS
+Enter choice (1-6): 4
+Enter Article ID to edit status: 3
+New Status (e.g., Read, Skimmed, To Read): Skimmed
+** Status updated! **
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+Enter choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ID   | Status     | Title                                         | URL                                                | Abstract
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1    | To Read    | IEEE Document 11219194                        | https://ieeexplore.ieee.org/document/11219194      | SAMPLE ABSTRACT
+2    | To Read    | IEEE Document 10346798                        | https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=... | SAMPLE ABSTRACT
+3    | Skimmed    | A Computer Vision Based Robotic Harvesting... | https://www.ijmerr.com/index.php?m=content&c=in... | Abstract—Harvesting lettuce...
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+## TEST CASE: DELETE ARTICLE
+Enter choice (1-6): 5
+Enter Article ID to delete: 2
+** Article deleted. **
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+Enter choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ID   | Status     | Title                                         | URL                                                | Abstract
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1    | To Read    | IEEE Document 11219194                        | https://ieeexplore.ieee.org/document/11219194      | SAMPLE ABSTRACT
+3    | Skimmed    | A Computer Vision Based Robotic Harvesting... | https://www.ijmerr.com/index.php?m=content&c=in... | Abstract—Harvesting lettuce...
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Literature Review Manager
+1. View Short List of Articles
+2. View Specific Article (Full Details)
+3. Add New Article
+4. Edit Article Status
+5. Delete Article
+6. Exit
+Enter choice (1-6): 6
+Closing the database. Happy researching!

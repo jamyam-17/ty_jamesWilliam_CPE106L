@@ -1,0 +1,18 @@
+Description:
+The program is a terminal-based literature review manager that utilizes an SQLite database to store relevant information about the read articles. The program stores all the information retrieved from the research paper, including the title, authors, URL, abstract, methodology, and results. This program stores all the entries in the database, enabling easy tracking of the reading progress for different sources.
+
+How to use:
+1. Clone the repository directly through Visual Studio Code.
+2. Open the cloned folder in VS Code.
+3. Open the Python script named "ty_jamesWilliam_labActivity6.py"
+4. Run the code by clicking the run Python file and click on the Play button in the top right corner.
+5. Use the terminal window to view the main menu options.
+6. From the main loop, select what action you want to do by entering your selection (1-6) in the terminal window.
+7. Enjoy using the program to navigate and manage your research papers.
+
+Features
+1. View Short List: Lists all saved articles, displaying their ID, current reading status, title, URL, and a brief preview of the abstract.
+2. View Full Details: Retrieve in-depth information about a specific article, including its full methodology and results.
+3. Add Articles: Insert new research papers dynamically by entering their specific details.
+4. Edit Status: Update the reading progress of an article (e.g., changing it to "Read" or "Skimmed").
+5. Delete Articles: Safely remove an article from your database if it is no longer needed for your literature review.
