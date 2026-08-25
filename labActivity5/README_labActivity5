@@ -1,0 +1,19 @@
+Description:
+This is a terminal-based inventory management system for a workshop to track item storage and item borrowers. It uses a relational SQLite database to track tools, electronic components, and user borrowing activities. This program utilizes relational schemas using foreign keys across four distinct tables: users, categories, items, and borrow_logs.
+
+
+How to use:
+1. Clone the repository directly through Visual Studio Code.
+2. Open the cloned folder in VS Code.
+3. Open the Python script named "ty_jamesWilliam_labActivity5.py"
+4. Run the code by clicking the run Python file and click on the Play button in the top right corner.
+5. Use the terminal window to add your name (this is for the borrowing and adding option)
+6. From the main loop, select what action you want to do by entering your selection in the terminal window
+7. Enjoy using the program to navigate through several workshop items.
+
+Features
+1. User Sessions: Enter your name to start a session. New users are automatically registered.
+2. View Inventory: Lists all items, shelf locations, the user who added them, quantity,  and a real-time list of current borrowers.
+3. Add Items: Insert new items dynamically.
+4. Borrow/Return: Track item checkouts.
+5. Delete Items: Safely deletes items and their associated borrowing history to maintain database integrity.
