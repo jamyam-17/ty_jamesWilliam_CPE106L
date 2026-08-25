@@ -1,0 +1,135 @@
+Welcome to the Workshop Inventory System!
+Please enter your name to continue: james
+
+Welcome back, james!
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------
+ID   | Item Name            | Category             | Qty  | Shelf | Added By   | Current Borrowers        
+-------------------------------------------------------------------------------------------------------------------
+1    | Soldering Iron       | Tool                 | 5    | A1    | Admin      | None                     
+2    | Multimeter           | Tool                 | 3    | A2    | Admin      | None                     
+3    | 10k Ohm Resistor     | Electronic Component | 500  | D3    | Admin      | None                     
+4    | 555 Timer IC         | Electronic Component | 50   | D3    | Admin      | None                     
+5    | Wire Stripper        | Tool                 | 10   | A2    | Admin      | None                     
+6    | Arduino Uno          | Electronic Component | 15   | C1    | Admin      | None                     
+-------------------------------------------------------------------------------------------------------------------
+
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 3
+Enter the ID of the item you want to borrow: 6
+How many are you borrowing? 1
+** Successfully borrowed 1x Arduino Uno. **
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------
+ID   | Item Name            | Category             | Qty  | Shelf | Added By   | Current Borrowers        
+-------------------------------------------------------------------------------------------------------------------
+1    | Soldering Iron       | Tool                 | 5    | A1    | Admin      | None                     
+2    | Multimeter           | Tool                 | 3    | A2    | Admin      | None                     
+3    | 10k Ohm Resistor     | Electronic Component | 500  | D3    | Admin      | None                     
+4    | 555 Timer IC         | Electronic Component | 50   | D3    | Admin      | None                     
+5    | Wire Stripper        | Tool                 | 10   | A2    | Admin      | None                     
+6    | Arduino Uno          | Electronic Component | 14   | C1    | Admin      | james (1)                
+-------------------------------------------------------------------------------------------------------------------
+
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 4
+
+Your Active Borrows:
+[Log ID: 2] 1x Arduino Uno (Borrowed: 2026-08-25 20:58:06)
+
+Enter the Log ID of the item you are returning: 2
+** Item returned successfully at 2026-08-25 20:59:29. Stock updated. **
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------
+ID   | Item Name            | Category             | Qty  | Shelf | Added By   | Current Borrowers        
+-------------------------------------------------------------------------------------------------------------------
+1    | Soldering Iron       | Tool                 | 5    | A1    | Admin      | None                     
+2    | Multimeter           | Tool                 | 3    | A2    | Admin      | None                     
+3    | 10k Ohm Resistor     | Electronic Component | 500  | D3    | Admin      | None                     
+4    | 555 Timer IC         | Electronic Component | 50   | D3    | Admin      | None                     
+5    | Wire Stripper        | Tool                 | 10   | A2    | Admin      | None                     
+6    | Arduino Uno          | Electronic Component | 15   | C1    | Admin      | None                     
+-------------------------------------------------------------------------------------------------------------------
+
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 5
+Enter the ID of the item to delete: 6
+** 'Arduino Uno' and its associated borrow history were successfully deleted. **
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 1
+
+-------------------------------------------------------------------------------------------------------------------
+ID   | Item Name            | Category             | Qty  | Shelf | Added By   | Current Borrowers        
+-------------------------------------------------------------------------------------------------------------------
+1    | Soldering Iron       | Tool                 | 5    | A1    | Admin      | None                     
+2    | Multimeter           | Tool                 | 3    | A2    | Admin      | None                     
+3    | 10k Ohm Resistor     | Electronic Component | 500  | D3    | Admin      | None                     
+4    | 555 Timer IC         | Electronic Component | 50   | D3    | Admin      | None                     
+5    | Wire Stripper        | Tool                 | 10   | A2    | Admin      | None                     
+-------------------------------------------------------------------------------------------------------------------
+
+
+--- Main Menu (james) ---
+1. View All Items
+2. Add New Item
+3. Borrow an Item
+4. Return an Item
+5. Delete an Item
+6. Exit
+Enter your choice (1-6): 6
+Logging out. Goodbye!
