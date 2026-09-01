@@ -1,0 +1,12 @@
+# # # Overview
+This is an interactive data visualization program by using an external data source (the UCI Iris dataset from UCI Machine Learning Repository) and processing it in Python. The script retrieves the data via the ucimlrepo API, processes the features and targets into a Pandas DataFrame, and generates an interactive scatter plot using Plotly.
+
+# # # How to run:
+1. Using a Python environment, paste this line in the terminal 'pip install ucimlrepo pandas plotly'
+2. Download and open the file ty_jamesWilliam_labactivity7.py
+3. Execute the given code, this will launch an interactive scatter plot in your default browser.
+4. Using Plotly, you can view each point in the dataset by hovering your mouse over them
+5. You can also zoom in and observe the relationship between sepal width and length according to their species
+
+# # # Interpretation
+From the scatter plot, we can observe the different characteristics of the three given species of the Iris flower. For example, the Iris-setosa is a width dominant species who has higher widths than length. While Iris-veriscolor and Iris-virginica almost share the same width and length, but from the plot we can observe that Iris-virginica can have greater sepal lengths
