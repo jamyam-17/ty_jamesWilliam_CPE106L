@@ -23,3 +23,6 @@ fig = px.scatter(
 )
 # Display in web browser
 fig.show()
+
+# Add interpretation
+print("From the scatter plot, we can observe the different characteristics of the three given species of the Iris flower. For example, the Iris-setosa is a width dominant species who has higher widths than length. While Iris-veriscolor and Iris-virginica almost share the same width and length, but from the plot we can observe that Iris-virginica can have greater sepal lengths")
